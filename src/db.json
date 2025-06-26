@@ -1,0 +1,88 @@
+{
+    "packages": [
+        {
+            "id": 1,
+            "name": "Évasion tropicale à Cancún",
+            "description": "Profitez de plages paradisiaques, d’un hôtel 5 étoiles tout inclus et d’activités nautiques inoubliables.",
+            "price": 1799.99,
+            "category": "Soleil"
+        },
+        {
+            "id": 2,
+            "name": "Aventure en montagne au Pérou",
+            "description": "Explorez le Machu Picchu et les Andes lors d’un séjour de randonnée et de découvertes culturelles.",
+            "price": 2199.50,
+            "category": "Aventure"
+        },
+        {
+            "id": 3,
+            "name": "Croisière romantique en Méditerranée",
+            "description": "Détendez-vous à bord d’un luxueux navire avec escales en Italie, en Grèce et en Espagne.",
+            "price": 2599.00,
+            "category": "Croisière"
+        },
+        {
+            "id": 4,
+            "name": "Séjour culturel au Japon",
+            "description": "Découvrez les traditions ancestrales et la modernité de Tokyo, Kyoto et Osaka.",
+            "price": 2899.95,
+            "category": "Culture"
+        },
+        {
+            "id": 5,
+            "name": "Safari au Kenya",
+            "description": "Partez à l’aventure dans les parcs nationaux du Kenya pour observer les Big Five.",
+            "price": 3099.00,
+            "category": "Aventure"
+        },
+        {
+            "id": 6,
+            "name": "Escapade gourmande en France",
+            "description": "Savourez les délices culinaires de la Provence et de la Bourgogne dans un circuit gastronomique.",
+            "price": 2399.00,
+            "category": "Gastronomie"
+        },
+        {
+            "id": 7,
+            "name": "Road trip en Islande",
+            "description": "Admirez les paysages lunaires, les cascades majestueuses et les sources chaudes naturelles.",
+            "price": 2799.00,
+            "category": "Aventure"
+        },
+        {
+            "id": 8,
+            "name": "Séjour détente à Bali",
+            "description": "Reconnectez avec vous-même grâce au yoga, aux plages paisibles et aux massages balinais.",
+            "price": 1999.99,
+            "category": "Détente"
+        },
+        {
+            "id": 9,
+            "name": "Vacances familiales en Floride",
+            "description": "Visitez les parcs d’attractions d’Orlando et profitez des plages de Miami en famille.",
+            "price": 1899.99,
+            "category": "Famille"
+        },
+        {
+            "id": 10,
+            "name": "Aventure arctique au Groenland",
+            "description": "Partez en expédition sur la banquise et observez les aurores boréales.",
+            "price": 3399.00,
+            "category": "Aventure"
+        },
+        {
+            "id": 11,
+            "name": "Détente en Toscane",
+            "description": "Séjournez dans un domaine viticole et profitez de la beauté des paysages italiens.",
+            "price": 2499.99,
+            "category": "Culture"
+        },
+        {
+            "id": 12,
+            "name": "Séjour historique en Égypte",
+            "description": "Explorez les pyramides, la vallée des rois et naviguez sur le Nil en croisière.",
+            "price": 2299.00,
+            "category": "Culture"
+        }
+    ]
+}

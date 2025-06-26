@@ -1,30 +1,33 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <MainNav />
+  <router-view :packages="packages" />
+  <MainFooter />
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import MainNav from './components/MainNav.vue'
+import MainFooter from './components/MainFooter.vue'
+import PackageDataService from '@/services/PackageDataService'
 
-nav {
-  padding: 30px;
+export default {
+  components: {
+    MainNav,
+    MainFooter
+  },
+  data () {
+    return {
+      packages: []
+    }
+  },
+  mounted () {
+    PackageDataService.getAll()
+      .then(response => {
+        this.packages = response.data
+        console.log(response.data)
+      })
+      .catch(error => {
+        console.error("Couldn't fetch Packages:", error)
+      })
+  }
 }
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>
